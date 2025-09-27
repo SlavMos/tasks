@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Use the required email address
-const email = "md.smith2@mail-srv.com";
+const email = "vladanik1999@gmail.com";
 const endpoint = "/" + email.replace(/[^a-zA-Z0-9]/g, "_");
 
 function isNatural(n) {
